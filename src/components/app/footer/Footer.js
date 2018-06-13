@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../app.css';
 
 export default class Footer extends Component {
 
@@ -7,7 +7,7 @@ export default class Footer extends Component {
     return (
       <footer role="contentinfo" id="footer">
         <section className="footer maxwidth-wrap"> 
-          <p>(c) <a href="https://github.com/limongoo/" target="_blank" rel="author noopener noreferrer">Blank App</a> | <a href="https://github.com/limongoo" target="_blank" rel="author noopener noreferrer">Ivan Limongan</a></p>
+          <p>&#169; <a href="https://github.com/limongoo/" target="_blank" rel="author noopener noreferrer">UserLAnd Technologies, LLC.</a></p>
         </section>
       </footer>
     );
