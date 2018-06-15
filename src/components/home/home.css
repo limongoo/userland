@@ -1,3 +1,5 @@
+@import '../../styles/variables.css';
+
 .landing-container {
   position: relative;
 }
@@ -8,4 +10,33 @@
 	left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.about-container {
+  background-color: $yellow;
+  padding: 3rem 7rem;
+  display: flex;
+  
+  .about-title {
+    padding: 0 2rem 0 0;
+  }
+}
+
+.product-container {
+  padding: 3rem 7rem;
+}
+
+.job-container {
+  padding: 3rem 7rem;
+  background-color: whitesmoke;
+}
+
+.contact-container {
+  padding: 3rem 7rem;
+  background-color: $black;
+  color: $white;
+
+  .contact-title {
+    color: $yellow;
+  }
 }
