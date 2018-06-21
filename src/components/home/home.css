@@ -192,6 +192,11 @@
   .product-description {
     padding: 1rem 0;
   }
+
+  .jobs-li {
+    border-bottom: 2px solid $lightgray;
+    padding: 2rem 0;
+  }
 }
 
 @media (min-width: 500px) {
@@ -213,6 +218,11 @@
 
   .product-description {
     padding: 1rem 0;
+  }
+
+  .jobs-li {
+    border-bottom: 2px solid $lightgray;
+    padding: 2rem 0;
   }
 
 }
