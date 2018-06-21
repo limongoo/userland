@@ -51,21 +51,24 @@
 
     a {
       text-decoration: none;
-      color: $black;
+      color: $gray;
       transition: 0.3s ease all;
       padding: 0 0 3px;
       border-bottom: 3px solid $white;
+      font-size: 0.9rem;
+      font-weight: 600;
     }
     
     a:hover {
       color: $black;
-      border-bottom: 3px solid $gray;
+      border-bottom: 3px solid $yellow;
     }
   }
 }
 
 .nav-ul {
   display: flex;
+  margin-top: 2rem;
 
   li {
     padding: 0 1rem 0;
@@ -121,6 +124,7 @@
 
   .about-content {
     flex-direction: column;
+    margin: 2rem 0;
   }
 }
 
@@ -144,13 +148,13 @@
 
 @media (min-width: 900px) {
   #header {
-    padding: 2rem;
+    padding: 0 2rem;
   }
 
   .logo {
     font-size: 2rem;
     transition: 0.3s ease all; 
-    width: 90px;
+    width: 80px;
 
     &:hover {
       color: $gray;
