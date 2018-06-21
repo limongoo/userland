@@ -34,30 +34,28 @@ class Header extends Component {
 
     return (
       <header role="banner" id="header">
-        <section className="head-container maxwidth-wrap">
-          <Link to="/" className="no-line"><img className="logo" src={Logo} alt="UserLAnd Logo"/></Link>
+        <section className="head-container">
           
-          <div>
-            <label htmlFor="check" name="checkbox"></label>
-            <input id="check" className="checkbox" type="checkbox" onClick={this.handleClick} checked={menu}/>
+          <div className="maxwidth-wrap nav-wrap">
+            <Link to="/" className="no-line"><img className="logo" src={Logo} alt="UserLAnd Logo"/></Link>
+          
+            <div>
+              <label htmlFor="check" name="checkbox"></label>
+              <input id="check" className="checkbox" type="checkbox" onClick={this.handleClick} checked={menu}/>
 
-            <div id="burger"><span></span><span></span><span></span></div>
+              <div id="burger"><span></span><span></span><span></span></div>
           
-            <nav id="main-menu">
-              <Link to="/" className="no-line"><img className="mobile-logo" src={Logo} alt="UserLAnd Logo"/></Link>
-              <ul className="nav-ul">
-                <li><a href="#about" onClick={this.handleClick}>About Us</a></li>
-                <li><a href="#product" onClick={this.handleClick}>Product</a></li>
-                <li><a href="#jobs" onClick={this.handleClick}>Jobs</a></li>
-                <li><a href="#contact" onClick={this.handleClick}>Contact</a></li>
-                {/* <li><Link to="/" onClick={this.handleClick}>About Us</Link></li>
-                <li><Link to="/about" onClick={this.handleClick}>Product</Link></li>
-                <li><Link to="/about" onClick={this.handleClick}>Jobs</Link></li>
-                <li><Link to="/about" onClick={this.handleClick}>Contact</Link></li> */}
-              </ul>
-            </nav>
+              <nav id="main-menu">
+                <Link to="/" className="no-line"><img className="mobile-logo" src={Logo} alt="UserLAnd Logo"/></Link>
+                <ul className="nav-ul">
+                  <li><a href="#about" onClick={this.handleClick}>About Us</a></li>
+                  <li><a href="#product" onClick={this.handleClick}>Product</a></li>
+                  <li><a href="#jobs" onClick={this.handleClick}>Jobs</a></li>
+                  <li><a href="#contact" onClick={this.handleClick}>Contact</a></li>
+                </ul>
+              </nav>
+            </div>
           </div>
-
           {error && <Error error={error}/>}
         </section> 
       </header>

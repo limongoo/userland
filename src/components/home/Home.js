@@ -2,10 +2,13 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './home.css';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import { configureAnchors } from 'react-scrollable-anchor'
 
+configureAnchors({offset: -60, scrollDuration: 500})
 
 class Home extends Component {
 
+  
   render() { 
     return (
       <section className="main-container">
@@ -15,7 +18,7 @@ class Home extends Component {
         <div className="landing-container">
           <div className="maxwidth-wrap">
             <div className="layer">
-              <h1 className="landing-title">Endless Possibilities at UserLAnd Technologies</h1>
+              <h1 className="landing-title">The Possibilities Are Endless</h1>
               <div className="landing-img"></div>
             </div>
           </div>

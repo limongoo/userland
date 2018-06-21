@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../app.css';
 import ScrollableAnchor from 'react-scrollable-anchor';
-
+import Logo from '../header/UserLand-Logo-RGB-Hex.png';
 
 export default class Footer extends Component {
 
@@ -13,14 +13,22 @@ export default class Footer extends Component {
           <ScrollableAnchor id={'contact'}>
             {/* --- Contact Section --- */}
             <div className="contact-container">
-              <div className="maxwidth-wrap container">
-                {/* Title goes here */}
-                <h4 className="contact-title">Contact</h4>
+              <div className="contact-layer">
+                <div className="maxwidth-wrap contact-content">
+                
+                  <div className="contact-flex">
+                    <img className="footer-logo" src={Logo} alt="Userland Logo"/>
+                    <div>
+                      {/* Title goes here */}
+                      <h4 className="contact-title">Say Hello</h4>
           
-                {/* Text goes here */}
-                <div className="contact-flex">
-                  <p></p>
-                  <p>&#169; UserLAnd Technologies, LLC.</p>
+                      {/* Text goes here */}
+                      <p><a href="mailto:hello@userlandtech.com">hello@userlandtech.com</a></p>
+                      <p>22311 SW Barber Blvd
+                      <br/>Portland, OR 97000</p>
+                      <small>&#169; 2018. UserLAnd Technologies, LLC.</small>
+                    </div>
+                  </div>
                 </div>
               </div>
               {/* <div className="layer-footer"></div> */}
