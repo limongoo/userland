@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../app.css';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import Logo from '../header/UserLand-Logo-RGB-Hex.png';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default class Footer extends Component {
 
@@ -15,20 +16,21 @@ export default class Footer extends Component {
             <div className="contact-container">
               <div className="contact-layer">
                 <div className="maxwidth-wrap contact-content">
-                
-                  <div className="contact-flex">
-                    <img className="footer-logo" src={Logo} alt="Userland Logo"/>
-                    <div>
-                      {/* Title goes here */}
-                      <h3 className="contact-title">Say Hello!</h3>
+                  <ScrollAnimation animateIn='fadeIn'>
+                    <div className="contact-flex">
+                      <img className="footer-logo" src={Logo} alt="Userland Logo"/>
+                      <div>
+                        {/* Title goes here */}
+                        <h3 className="contact-title">Say Hello!</h3>
           
-                      {/* Text goes here */}
-                      <p><a href="mailto:hello@userlandtech.com">hello@userlandtech.com</a></p>
-                      <p>22311 SW Barber Blvd
-                      <br/>Portland, OR 97000</p>
-                      <small>&#169; 2018. UserLAnd Technologies, LLC.</small>
+                        {/* Text goes here */}
+                        <p><a href="mailto:hello@userlandtech.com">hello@userlandtech.com</a></p>
+                        <p>22311 SW Barber Blvd
+                        <br/>Portland, OR 97000</p>
+                        <small>&#169; 2018. UserLAnd Technologies, LLC.</small>
+                      </div>
                     </div>
-                  </div>
+                  </ScrollAnimation>
                 </div>
               </div>
               {/* <div className="layer-footer"></div> */}
