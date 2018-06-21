@@ -5,6 +5,7 @@ import '../app.css';
 import Error from '../errorloading/Error';
 import Logo from './UserLand-Logo-RGB.png';
 
+
 class Header extends Component {
 
   state = {
@@ -45,10 +46,14 @@ class Header extends Component {
             <nav id="main-menu">
               <Link to="/" className="no-line"><img className="mobile-logo" src={Logo} alt="UserLAnd Logo"/></Link>
               <ul className="nav-ul">
-                <li><Link to="/" onClick={this.handleClick}>About Us</Link></li>
+                <li><a href="#about" onClick={this.handleClick}>About Us</a></li>
+                <li><a href="#product" onClick={this.handleClick}>Product</a></li>
+                <li><a href="#jobs" onClick={this.handleClick}>Jobs</a></li>
+                <li><a href="#contact" onClick={this.handleClick}>Contact</a></li>
+                {/* <li><Link to="/" onClick={this.handleClick}>About Us</Link></li>
                 <li><Link to="/about" onClick={this.handleClick}>Product</Link></li>
                 <li><Link to="/about" onClick={this.handleClick}>Jobs</Link></li>
-                <li><Link to="/about" onClick={this.handleClick}>Contact</Link></li>
+                <li><Link to="/about" onClick={this.handleClick}>Contact</Link></li> */}
               </ul>
             </nav>
           </div>
