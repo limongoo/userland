@@ -20,7 +20,7 @@ export default class Footer extends Component {
                     <img className="footer-logo" src={Logo} alt="Userland Logo"/>
                     <div>
                       {/* Title goes here */}
-                      <h4 className="contact-title">Say Hello</h4>
+                      <h3 className="contact-title">Say Hello!</h3>
           
                       {/* Text goes here */}
                       <p><a href="mailto:hello@userlandtech.com">hello@userlandtech.com</a></p>

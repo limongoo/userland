@@ -66,6 +66,20 @@
 
 }
 
+.product-flex {
+  display: flex;
+  margin: 5rem 0;
+}
+
+.product-img {
+  max-width: 40%;
+  height: 100%;
+}
+
+.product-description {
+  padding: 1rem 2rem;
+}
+
 .job-container {
   padding: 3rem 7rem;
   background-color: whitesmoke;
@@ -149,6 +163,14 @@
     padding: 5rem 3rem;
   }
 
+  .product-flex {
+    flex-direction: column;
+  }
+
+  .product-img {
+    max-width: 100%;
+  }
+
   .job-container {
     padding: 3rem;
   }
@@ -166,6 +188,10 @@
   .contact-content {
     padding: 5rem 3rem;
   }
+
+  .product-description {
+    padding: 1rem 0;
+  }
 }
 
 @media (min-width: 500px) {
@@ -175,6 +201,18 @@
 
   .footer-logo {
     max-width: 100px;
+  }
+
+  .product-img {
+    max-width: 100%;
+  }
+
+  .product-flex {
+    flex-direction: column;
+  }
+
+  .product-description {
+    padding: 1rem 0;
   }
 
 }
@@ -194,6 +232,18 @@
     max-width: 50%;
     margin: 0 auto;
     text-align: center;
+  }
+
+  .product-flex {
+    flex-direction: row;
+  }
+
+  .product-img {
+    max-width: 40%;
+  }
+
+  .product-description {
+    padding: 1rem 2rem;
   }
   
   .title-block-product {
@@ -226,7 +276,7 @@
   .jobs-title {
     width: 35%;
     font-weight: 600;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     padding: 1rem 0;
   }
 

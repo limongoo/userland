@@ -58,7 +58,7 @@ a {
   color: $black;
   transition: 0.3s ease all;
   padding: 0 0 3px;
-  border-bottom: 3px solid $white;
+  border-bottom: 3px solid $yellow;
 }
 
 a:hover {

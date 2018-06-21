@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './home.css';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import { configureAnchors } from 'react-scrollable-anchor'
+import { configureAnchors } from 'react-scrollable-anchor';
+import ProductImg from './product-sample.jpg';
 
-configureAnchors({offset: -60, scrollDuration: 500})
+configureAnchors({  offset: -60, scrollDuration: 500  });
 
 class Home extends Component {
 
@@ -63,6 +64,33 @@ class Home extends Component {
                 {/* Text goes here */}
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
               </div>
+
+              <div className="product-flex">
+                <img className="product-img" src={ProductImg} alt="SampleImage"/>
+                <div className="product-description">
+                  <h4>Technology As It Should Be</h4>
+                  <p>Minimal design and a light color-scheme were strategic choices, and the browsing experience is based around visuals that stand out more powerfully because of these decisions, allowing users to view titles, media, news, and fun facts. The internet is a vast and ever-expanding source of information. But as it continues to grow, it will be ever more important to have trustworthy authorship</p>
+                </div>
+              </div>
+
+              <div className="product-flex">
+                <img className="product-img" src={ProductImg} alt="SampleImage"/>
+                <div className="product-description">
+                  <h4>Secure Access Wherever You Are</h4>
+                  <p>Minimal design and a light color-scheme were strategic choices, and the browsing experience is based around visuals that stand out more powerfully because of these decisions, allowing users to view titles, media, news, and fun facts.</p>
+                </div>
+              </div>
+
+              <div className="product-flex">
+                <img className="product-img" src={ProductImg} alt="SampleImage"/>
+                <div className="product-description">
+                  <h4>Introducing the Worlds Most Secure Access</h4>
+                  <p>Minimal design and a light color-scheme were strategic choices, and the browsing experience is based around visuals that stand out more powerfully because of these decisions, allowing users to view titles, media, news, and fun facts.</p>
+                  <p>The internet is a vast and ever-expanding source of information. But as it continues to grow, it will be ever more important to have trustworthy authorship.</p>
+                </div>
+              </div>
+
+         
             </div>
           </div>
         </ScrollableAnchor>
@@ -83,7 +111,9 @@ class Home extends Component {
 
                   <li className="jobs-li">
                     <div className="jobs-title">
-                    Back-End Developer
+                      <h4>Back-End Developer</h4>
+                      <p>Application Deadline: 6/30/2018</p>
+                    
                     </div>
                     <div className="jobs-description">
                       <p>A back-end web developer is responsible for server-side web application logic and integration of the work front-end developers do. Back-end developers are usually write the web services and APIs used by front-end developers and mobile application developers.</p>
@@ -101,7 +131,9 @@ class Home extends Component {
 
                   <li className="jobs-li">
                     <div className="jobs-title">
-                    Back-End Developer
+                      <h4>Back-End Developer</h4>
+                      <p>Application Deadline: 6/30/2018</p>
+
                     </div>
                     <div className="jobs-description">
                       <p>A back-end web developer is responsible for server-side web application logic and integration of the work front-end developers do. Back-end developers are usually write the web services and APIs used by front-end developers and mobile application developers.</p>
