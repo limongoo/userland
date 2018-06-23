@@ -37,6 +37,8 @@ class Header extends Component {
         <section className="head-container">
           
           <div className="maxwidth-wrap nav-wrap">
+
+            {/* Navigation Logo */}
             <Link to="/" className="no-line"><img className="logo" src={Logo} alt="UserLAnd Logo"/></Link>
           
             <div>
@@ -44,9 +46,12 @@ class Header extends Component {
               <input id="check" className="checkbox" type="checkbox" onClick={this.handleClick} checked={menu}/>
 
               <div id="burger"><span></span><span></span><span></span></div>
-          
               <nav id="main-menu">
+
+                {/* Mobile Menu Logo */}
                 <Link to="/" className="no-line"><img className="mobile-logo" src={Logo} alt="UserLAnd Logo"/></Link>
+                
+                {/* Navigation Menu */}
                 <ul className="nav-ul">
                   <li><a href="#about" onClick={this.handleClick}>About Us</a></li>
                   <li><a href="#product" onClick={this.handleClick}>Product</a></li>
