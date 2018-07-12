@@ -13,8 +13,9 @@
 .maxwidth-wrap {
   max-width: 1200px;
   margin: 0 auto;
-  width: 100%;
+  /* width: 100%; */
 }
+
 
 #header {
   grid-area: header;
@@ -155,6 +156,10 @@
     flex-direction: column;
     margin: 2rem 0;
   }
+
+  .nav-wrap {
+    margin: 0;
+  }
 }
 
 @media (min-width: 500px) {
@@ -163,7 +168,7 @@
   }
 
   .mobile-logo {
-    display: none;
+    display: block;
   }
 
   .head-container {
@@ -177,11 +182,24 @@
   .nav-ul {
     text-align: center !important;
   }
+
+  .nav-wrap {
+    margin: 0;
+  }
 }
 
 @media (min-width: 690px) {
   .head-container li a { 
     font-size: 0.9rem;
+  }
+
+  .nav-wrap {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .mobile-logo {
+    display: none;
   }
 }
 
