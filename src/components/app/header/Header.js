@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import '../app.css';
 import Error from '../errorloading/Error';
-import Logo from './UserLand-Logo-RGB.png';
+import Logo from './UserLand-Logo-Hex.png';
 
 
 class Header extends Component {
