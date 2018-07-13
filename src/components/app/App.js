@@ -5,6 +5,8 @@ import Loading from './errorloading/Loading';
 import Header from './header/Header';
 import Footer from './footer/Footer';
 import Home from '../home/Home';
+import About from '../about/About';
+import Jobs from '../jobs/Jobs';
 
 
 export default class App extends Component {
@@ -21,8 +23,8 @@ export default class App extends Component {
               <Loading/>
               <Switch>
                 <Route exact path="/" component={Home}/>
-                {/* <Route path="/about" component={About}/> */}
-                {/* <Route path="/movies/:id" render={({ match }) => <MovieDetail imdbID={match.params.id}/>}/> */}
+                <Route path="/about" component={About}/>
+                <Route path="/jobs" component={Jobs}/>
                 <Redirect to="/"/>
               </Switch>
             </main>
