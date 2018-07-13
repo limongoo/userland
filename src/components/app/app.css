@@ -52,9 +52,9 @@
   text-align: left;
   align-items: left;
   flex-direction: row;
-  position: fixed;
+  /* position: fixed; Enable when not using headroom*/ 
   z-index: 1000;
-  background-color: $yellow;
+  /* background-color: $yellow; */
   width: 100%;
   
   li {
@@ -81,7 +81,7 @@
   margin-top: 2rem;
 
   li {
-    padding: 1rem 1rem 0;
+    padding: 0 1rem;
   }
 }
 
@@ -95,6 +95,20 @@
   text-align: left;
   color: $gray;
 }
+
+.headroom {
+  background: $yellow;
+}
+
+.headroom--unpinned {
+  position: fixed !important;
+  transform: translateY(0%) !important;
+  background: $white;
+}
+
+/* .headroom--unpinned > .head-container {
+  background: white !important;
+} */
 
 /* ----- Media Queries ----- */
 
