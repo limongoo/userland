@@ -2,12 +2,18 @@
 
 .landing-container {
   position: relative;
-  background-image: url(userland-logo-landing.png);
+  /* background-image: url(userland-logo-only.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
-  /* background: $yellow; */
+  background: $yellow;
+}
+
+.landing-img {
+  width: 320px;
+  margin: 0 auto;
+  padding: 12rem 0;
 }
 
 .landing-title {

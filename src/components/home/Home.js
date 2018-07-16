@@ -4,6 +4,7 @@ import './home.css';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 import ProductImg from './product-sample.jpg';
+import LandingImg from './UserLand-Logo-Only.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 configureAnchors({  offset: -60, scrollDuration: 500  });
@@ -21,7 +22,7 @@ class Home extends Component {
           <div className="maxwidth-wrap">
             {/* <div className="layer"> */}
             {/* <h1 className="landing-title">The Possibilities Are Endless</h1> */}
-            <div className="landing-img"></div>
+            <div className="landing-img"><img src={LandingImg} alt="Userland logo"/></div>
             {/* </div> */}
           </div>
         </div>
