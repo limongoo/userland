@@ -21,8 +21,11 @@
   top: 50%;
 	left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  line-height: 5rem;
+  color: $black;
+  line-height: 3rem;
+  width: 70%;
+  border-left: 10px solid white;
+  padding: 0 0 0 2rem;
 }
 
 .title-block {
@@ -32,7 +35,7 @@
 }
 
 .layer {
-  background-color: rgba(255, 230, 2, 0.5);
+  background-color: rgba(255, 204, 5, 0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -41,7 +44,7 @@
 }
 
 .about-container {
-  background-color: $yellow;
+  background-color: $white;
   padding: 4rem 3rem 2rem 3rem;
   flex-direction: column;
 }
@@ -52,4 +55,17 @@
   .about-title {
     padding: 0 2rem 0 0;
   }
+}
+
+.about-img {
+  max-width: 110rem;
+  width: 100%;
+}
+
+.core-content {
+  display: flex;
+}
+
+.view-content {
+  text-align: center;
 }

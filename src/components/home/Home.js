@@ -20,10 +20,10 @@ class Home extends Component {
         {/* --- Landing Section --- */}
         <div className="landing-container">
           <div className="maxwidth-wrap">
-            {/* <div className="layer"> */}
-            {/* <h1 className="landing-title">The Possibilities Are Endless</h1> */}
-            <div className="landing-img"><img src={LandingImg} alt="Userland logo"/></div>
-            {/* </div> */}
+            <div className="product-layer">
+              {/* <h1 className="landing-title">The Possibilities Are Endless</h1> */}
+              <div className="landing-img"><img src={LandingImg} alt="Userland logo"/></div>
+            </div>
           </div>
         </div>
 
