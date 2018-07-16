@@ -16,10 +16,10 @@ class About extends Component {
         
 
         {/* --- Landing Section --- */}
-        <div className="landing-container">
+        <div className="alanding-container">
           <div className="maxwidth-wrap">
             <div className="layer">
-              <h1 className="landing-title">The Possibilities Are Endless</h1>
+              <h3 className="landing-title">We’re a company founded on the belief that good ideas deserve to be made.</h3>
               <div className="landing-img"></div>
             </div>
           </div>
