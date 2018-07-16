@@ -11,3 +11,4 @@
 ### Additional Features Used:
 - React Scrollable Anchor
 - React Animate On Scroll
+- React Headroom
