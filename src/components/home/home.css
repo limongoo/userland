@@ -2,7 +2,8 @@
 
 .landing-container {
   position: relative;
-  background-image: url(landing.jpg);
+  
+  background-image: url(userland-landing.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,19 +41,7 @@
   height: 100%;
 }
 
-.about-container {
-  background-color: $yellow;
-  padding: 4rem 3rem 2rem 3rem;
-  flex-direction: column;
-}
 
-.about-content {
-  display: flex;
-  
-  .about-title {
-    padding: 0 2rem 0 0;
-  }
-}
 
 .product-container {
   padding: 5rem 3rem;
@@ -178,31 +167,12 @@
     max-width: 100%;
   }
 
-  .job-container {
-    padding: 3rem;
-  }
-
-  .jobs-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 2rem 0 0;
-  }
-
-  .jobs-title {
-    font-weight: 600;
-  }
-
   .contact-content {
     padding: 5rem 3rem;
   }
 
   .product-description {
     padding: 1rem 0;
-  }
-
-  .jobs-li {
-    border-bottom: 2px solid $lightgray;
-    padding: 2rem 0;
   }
 }
 
@@ -231,7 +201,6 @@
     border-bottom: 2px solid $lightgray;
     padding: 2rem 0;
   }
-
 }
 
 @media (min-width: 900px) {

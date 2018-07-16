@@ -2,7 +2,7 @@
 
 .alanding-container {
   position: relative;
-  background-image: url(userland-landing.jpg);
+  background-image: url(landing.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,7 +34,7 @@
   width: 10px;
 }
 
-.layer {
+.about-layer {
   background-color: rgba(255, 204, 5, 0.8);
   position: absolute;
   top: 0;
@@ -55,6 +55,10 @@
   .about-title {
     padding: 0 2rem 0 0;
   }
+
+  p {
+    padding: 0;
+  }
 }
 
 .about-img {
@@ -64,8 +68,36 @@
 
 .core-content {
   display: flex;
+  margin: 2rem 0;
+  flex-direction: column;
+
+  div {
+    width: 100%;
+    margin: 0 0 1rem;
+  }
 }
 
 .view-content {
-  text-align: center;
+  text-align: left;
+  margin: 3rem 0 5rem;
+
+  p {
+    margin: 2rem 0 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .core-content {
+    flex-direction: row;
+  
+    div {
+      width: 31%;
+      margin: 0 2rem 0 0;
+    }
+  }
+
+  .about-content p {
+    padding: 0 0 0 2rem;
+    
+  }
 }

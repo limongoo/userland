@@ -16,10 +16,10 @@ class Jobs extends Component {
         
 
         {/* --- Landing Section --- */}
-        <div className="landing-container">
+        <div className="jlanding-container">
           <div className="maxwidth-wrap">
-            <div className="layer">
-              <h1 className="landing-title">The Possibilities Are Endless</h1>
+            <div className="jobs-layer">
+              <h3 className="jlanding-title">The Possibilities Are Endless</h3>
               <div className="landing-img"></div>
             </div>
           </div>

@@ -19,7 +19,7 @@ class About extends Component {
         {/* --- Landing Section --- */}
         <div className="alanding-container">
           <div className="maxwidth-wrap">
-            <div className="layer">
+            <div className="about-layer">
               <h3 className="landing-title">We’re a company founded on the belief that good ideas deserve to be made.</h3>
               <div className="landing-img"></div>
             </div>
@@ -47,26 +47,6 @@ class About extends Component {
             </div>
           </div>
         </div>
-     
-        {/* --- What We Do section --- */}
-        <div className="about-container">
-          <div className="maxwidth-wrap">
-          
-            {/* Title goes here */}
-            <h5 className="about-title"> What We Do</h5>
-            <div className="title-block"></div>
-          
-            <div className="about-content">
-              <ScrollAnimation animateIn='fadeIn'>
-                <img className="about-img" src={AboutImg} alt="About UserLAnd"/>            
-              </ScrollAnimation>
-              
-              {/* Text goes here */}
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
-            </div>
-          </div>
-        </div>
 
 
         {/* --- Our Core Values --- */}
@@ -80,14 +60,23 @@ class About extends Component {
             <div className="core-content">
               
               {/* Text goes here */}
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
-              {/* Text goes here */}
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div>
+                <h4>Secure</h4>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
 
               {/* Text goes here */}
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
+              <div>
+                <h4>Safe</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+
+              {/* Text goes here */}
+              <div>
+                <h4>Accessible</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+
             </div>
           </div>
         </div>
@@ -98,14 +87,14 @@ class About extends Component {
           <div className="maxwidth-wrap">
           
             {/* Title goes here */}
-            <h5 className="about-title"> View Our Product</h5>
+            <h5 className="about-title"> Our Products</h5>
             <div className="title-block"></div>
           
             <div className="view-content">
               
               {/* Text goes here */}
               <h4>We make simple, complex and secure systems</h4>
-              <Link to="/product" href="#product" alt="Go to product page">Explore Our Products</Link>
+              <p><Link to="/product" href="#product" alt="Go to product page">Explore Our Products</Link></p>
         
             </div>
           </div>
