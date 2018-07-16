@@ -99,7 +99,7 @@ class About extends Component {
               
               {/* Text goes here */}
               <h4>We make simple, complex and secure systems</h4>
-              <p><Link to="/product" href="#product" alt="Go to product page">Explore Our Products</Link></p>
+              <p><Link to="/" href="#product" alt="Go to product page">Explore Our Products</Link></p>
         
             </div>
           </div>
