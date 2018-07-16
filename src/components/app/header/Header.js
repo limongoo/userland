@@ -56,7 +56,7 @@ class Header extends Component {
                   {/* Navigation Menu */}
                   <ul className="nav-ul">
                     <li><Link to="/product" href="#product" onClick={this.handleClick}>Product</Link></li>
-                    <li><Link to="/about" onClick={this.handleClick}>About Us</Link></li>
+                    <li><Link to="/about" href="#about" onClick={this.handleClick}>About Us</Link></li>
                     <li><Link to="/jobs" href="#jobs" onClick={this.handleClick}>Jobs</Link></li>
                   </ul>
                 </nav>
