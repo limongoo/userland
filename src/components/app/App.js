@@ -7,6 +7,7 @@ import Footer from './footer/Footer';
 import Home from '../home/Home';
 import About from '../about/About';
 import Jobs from '../jobs/Jobs';
+import ScrollToTop from './ScrollToTop';
 
 
 export default class App extends Component {
@@ -22,9 +23,9 @@ export default class App extends Component {
             <main role="main" id="main">
               <Loading/>
               <Switch>
-                <Route exact path="/" component={Home}/>
-                <Route path="/about" component={About}/>
-                <Route path="/jobs" component={Jobs}/>
+                <ScrollToTop exact path="/" component={Home}/>
+                <ScrollToTop path="/about" component={About}/>
+                <ScrollToTop path="/jobs" component={Jobs}/>
                 <Redirect to="/"/>
               </Switch>
             </main>
