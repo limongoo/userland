@@ -23,6 +23,9 @@ class Home extends Component {
             <div className="product-layer">
               {/* <h1 className="landing-title">The Possibilities Are Endless</h1> */}
               <div className="landing-img"><img src={LandingImg} alt="Userland logo"/></div>
+              <div className="pulse-wrap">
+                <button className="pulse-button"></button>
+              </div>
             </div>
           </div>
         </div>

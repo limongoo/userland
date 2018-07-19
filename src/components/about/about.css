@@ -35,7 +35,7 @@
 }
 
 .about-layer {
-  background-color: rgba(255, 204, 5, 0.7);
+  background-color: rgba(255, 204, 5, 0.9);
   position: absolute;
   top: 0;
   left: 0;
@@ -103,7 +103,11 @@
   }
 
   .about-content p {
-    padding: 0 0 0 2rem;
-    
+    padding: 0 0 0 2rem; 
+  }
+
+  .about-content {
+    flex-direction: row;
+    padding: 3rem 0rem;
   }
 }

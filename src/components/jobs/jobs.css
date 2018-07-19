@@ -43,6 +43,11 @@
   height: 100%;
 }
 
+.job-container {
+  padding: 3rem 7rem;
+  background-color: whitesmoke;
+}
+
 /* ----- Media Queries ----- */
 
 @media (min-width: 200px) {

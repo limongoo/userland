@@ -3,6 +3,7 @@ import '../app.css';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import Logo from '../header/UserLand-Logo-RGB-Hex.png';
 import ScrollAnimation from 'react-animate-on-scroll';
+import './footer.css';
 
 export default class Footer extends Component {
 
