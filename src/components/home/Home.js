@@ -24,7 +24,7 @@ class Home extends Component {
               {/* <h1 className="landing-title">The Possibilities Are Endless</h1> */}
               <div className="landing-img"><img src={LandingImg} alt="Userland logo"/></div>
               <div className="pulse-wrap">
-                <a href="#product" className="pulse-link"><button className="pulse-button"></button></a>
+                <a href="#product" className="pulse-link" alt="Go to main section"><button className="pulse-button"></button></a>
               </div>
             </div>
           </div>

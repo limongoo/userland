@@ -92,6 +92,10 @@
   margin: 0 auto;
 }
 
+.about-text {
+  padding: 2rem 0 0; 
+}
+
 @media (min-width: 900px) {
   .core-content {
     flex-direction: row;
@@ -102,8 +106,8 @@
     }
   }
 
-  .about-content p {
-    padding: 0 0 0 2rem; 
+  .about-text {
+    padding: 1rem 0 0 2rem; 
   }
 
   .about-content {
