@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './about.css';
-// import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 import ScrollAnimation from 'react-animate-on-scroll';
 import AboutImg from './about.jpg';
@@ -16,7 +15,6 @@ class About extends Component {
   render() { 
     return (
       <section className="main-container">
-        {/* <ScrollableAnchor id={'about'}> */}
 
         {/* --- Landing Section --- */}
         <div className="alanding-container">
